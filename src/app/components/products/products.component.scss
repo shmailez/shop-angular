@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example-card {
+  margin: 5px;
+  max-width: 200px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.mat-card-image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.button-group {
+  display: flex;
+}
+
+.mat-actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.example-header-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.mat-toolbar-row {
+  background-color: rgb(106, 0, 255);
+  color: #fff;
+  display: flex;
+  justify-content: end;
+}
+
+.example-icon {
+  padding: 14px;
+}
+
+.example-spacer {
+  flex: auto 1 1;
+  justify-content: end;
+}
+
+.no-select {
+  cursor: pointer;
+}

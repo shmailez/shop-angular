@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Война и мир",
+      "price": "1500",
+      "year": "2000",
+      "autor": "Л.Н.Толстой",
+      "genre": "Роман",
+      "volume": "500",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "Л.Н.Толстой",
+        "genre": "Роман",
+        "volume": "500",
+        "language": "Русский"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Лолита",
+      "price": "1500",
+      "year": "2010",
+      "autor": "В.В.Набоков",
+      "genre": "Триллер",
+      "volume": "230",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "В.В.Набоков",
+        "genre": "Триллер",
+        "volume": "230",
+        "language": "Русский"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Вечера на хуторе близь Диканьки",
+      "price": "1300",
+      "year": "2010",
+      "autor": "Н.В.Гоголь",
+      "genre": "Хоррор",
+      "volume": "240",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "Н.В.Гоголь",
+        "genre": "Хоррор",
+        "volume": "240",
+        "language": "Русский"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Козья тропа",
+      "price": "2500",
+      "year": "2001",
+      "autor": "В.У.Церберов",
+      "genre": "Роман",
+      "volume": "300",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "В.У.Церберов",
+        "genre": "Роман",
+        "volume": "300",
+        "language": "Русский"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 2,
+      "title": "Лолита",
+      "price": "1500",
+      "year": "2010",
+      "autor": "В.В.Набоков",
+      "genre": "Триллер",
+      "volume": "230",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "В.В.Набоков",
+        "genre": "Триллер",
+        "volume": "230",
+        "language": "Русский"
+      },
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Вечера на хуторе близь Диканьки",
+      "price": "1300",
+      "year": "2010",
+      "autor": "Н.В.Гоголь",
+      "genre": "Хоррор",
+      "volume": "240",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "Н.В.Гоголь",
+        "genre": "Хоррор",
+        "volume": "240",
+        "language": "Русский"
+      },
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title": "Козья тропа",
+      "price": "2500",
+      "year": "2001",
+      "autor": "В.У.Цербер",
+      "genre": "Роман",
+      "volume": "400",
+      "language": "Русский",
+      "image": "assets/images/book.jpg",
+      "configure": {
+        "autor": "В.У.Цербер",
+        "genre": "Роман",
+        "volume": "400",
+        "language": "Русский"
+      },
+      "quantity": 4
+    }
+  ]
+}

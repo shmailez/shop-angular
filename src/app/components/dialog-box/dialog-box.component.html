@@ -1,0 +1,37 @@
+<div class="dialog-box">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Заголовок</mat-label>
+      <input matInput formControlName="title" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Цена</mat-label>
+      <input matInput formControlName="price" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Год издания</mat-label>
+      <input matInput formControlName="year" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Автор</mat-label>
+      <input matInput formControlName="autor" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Жанр</mat-label>
+      <input matInput formControlName="genre" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Количетво страниц</mat-label>
+      <input matInput formControlName="volume" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Язык</mat-label>
+      <input matInput formControlName="language" />
+    </mat-form-field>
+
+    <button mat-button type="submit">
+      {{ isNew ? "Добавить" : "Редактировать" }}
+    </button>
+    <button mat-button (click)="onNoClick()" type="button">Закрыть</button>
+  </form>
+</div>
